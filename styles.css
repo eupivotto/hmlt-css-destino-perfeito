@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 16px;
+}
+
+header nav li {
+  display: inline;
+  margin-left: 16px;
+  font-size: 16px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #0966a8;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  color: black;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .logo {
+  width: 200px;
+  height: 77px;
+}
+
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("./images/bg-about.jpg");
+}
+
+.about .img-summer {
+  padding: 0 60px;
+  width: 100%;
+}
+
+.img-summer img {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.img-summer h1 {
+  margin-bottom: 60px;
+}
+
+.text-about {
+  padding-right: 50px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.text-about h2 {
+  margin-bottom: 10px;
+}
+
+.destinations {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.content-destinations {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-destinations ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  padding-top: 70px;
+}
+
+.content-destinations ul li {
+  list-style: none;
+}
+
+.content-destinations ul li h3 {
+  text-align: center;
+  font-size: medium;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.content-destinations ul li img {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.footer {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("./images/bg-contact.jpg");
+}
+
+.footer ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.call h2 {
+    margin-bottom: 8px;
+}
+
+.social h2 {
+    margin-bottom: 8px;
+}
+.form-suport h2 {
+    margin-bottom: 8px;
+}
+
+.form-suport textarea {
+    resize: none;
+    height: 120px;
+}
+
+.form-suport form button {
+    cursor: pointer;
+    background-color: #0966a8;
+    color: #fff;
+    border: none;
+    transition: 0.3s;
+    margin-top: 4px;
+}
+
+.form-suport form button:hover {
+    background-color: #6cb5e9;
+    border: solid 1px #000;
+    color: #000;
+}
+
+.copyrigth {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
